@@ -1,0 +1,773 @@
+{
+ "patterns": [
+  {
+   "name": "安価で無難",
+   "found": true,
+   "total": 11920,
+   "overall": 37,
+   "cls": "plain",
+   "axes": {
+    "luxury": 13,
+    "appeal": 66,
+    "color": 66,
+    "silhouette": 60,
+    "style": 78,
+    "complete": 62,
+    "indiv": 15,
+    "fashion": 66,
+    "harmony": 67,
+    "daily": 81
+   },
+   "title": "日常生活の優等生",
+   "impression": "予定を決めずに街を歩く日。誰の記憶にも残らない代わりに、誰にも嫌われない。",
+   "reasonComment": "WEGOのNEWERA ECOTOTE MESHで臨めば、彼女の親への挨拶なら正解のコーデ。表紙より、休日のショッピングモールが似合う。",
+   "items": [
+    "トップス: WEGO OUTLETS TRボウタイシャツ ¥960",
+    "ボトムス: coca ワイドテーパードイージーパンツ ¥2490",
+    "シューズ: CONVERSE ALL STAR US BLACKBOTTOM HI ¥3960",
+    "バッグ: WEGO NEWERA　ECOTOTE　MESH ¥2970",
+    "小物: CONVERSE CV STANDARD SOCKS HI ¥1540"
+   ]
+  },
+  {
+   "name": "安価でオシャレ",
+   "found": true,
+   "total": 16928,
+   "overall": 48,
+   "cls": "stylish",
+   "axes": {
+    "luxury": 20,
+    "appeal": 68,
+    "color": 78,
+    "silhouette": 60,
+    "style": 83,
+    "complete": 66,
+    "indiv": 35,
+    "fashion": 72,
+    "harmony": 72,
+    "daily": 77
+   },
+   "title": "プチプラ界の革命児",
+   "impression": "値札を見なければ、もっと高く評価されていたかもしれない。",
+   "reasonComment": "青の効いた色使いが安さを消している。総額¥16,928とは、言われないと分からない。",
+   "items": [
+    "トップス: PUNYUS 【新サイズ】フード総柄Tシャツ ¥4499",
+    "ボトムス: ANGIE ワイドスウェットパンツ ¥2970",
+    "シューズ: WEGO パテッド厚底サンダル ¥2969",
+    "バッグ: PUNYUS スーベニアトートバッグ ¥3300",
+    "小物: CONVERSE SIDE EMB LOGO CAP ¥3190"
+   ]
+  },
+  {
+   "name": "安価で壊滅的（ダサい）",
+   "found": true,
+   "total": 9707,
+   "overall": 0,
+   "cls": "dasai",
+   "axes": {
+    "luxury": 10,
+    "appeal": 39,
+    "color": 72,
+    "silhouette": 60,
+    "style": 67,
+    "complete": 20,
+    "indiv": 34,
+    "fashion": 57,
+    "harmony": 57,
+    "daily": 71
+   },
+   "title": "全身の意思疎通に失敗",
+   "impression": "上半身と下半身が別々の予定で外出している。",
+   "reasonComment": "肌着が外出着の座に座ってしまっている。誰か一人くらい、まとめ役が欲しかった。",
+   "items": [
+    "トップス: ドン・キホーテ 情熱価格 エアバリアインナー 長袖クルーネック ¥1490",
+    "ボトムス: ドン・キホーテ 情熱価格 エアバリアインナー ロングスパッツ ¥1290",
+    "シューズ: PHILLY ステッチデザインフラットシューズ ¥2199",
+    "バッグ: WC タータンチェック3WAYリボンバッグ ¥3299",
+    "小物: WEGO カーブカラーレンズアイウェア ¥1429"
+   ]
+  },
+  {
+   "name": "高額で無難",
+   "found": true,
+   "total": 548240,
+   "overall": 88,
+   "cls": "plain",
+   "axes": {
+    "luxury": 77,
+    "appeal": 65,
+    "color": 66,
+    "silhouette": 60,
+    "style": 72,
+    "complete": 70,
+    "indiv": 21,
+    "fashion": 66,
+    "harmony": 67,
+    "daily": 55
+   },
+   "title": "上品すぎる一般人",
+   "impression": "一見すると普通の休日コーデ。値札を見るまでは。",
+   "reasonComment": "総額¥548,240の静けさ。静かな高級感とはこのこと。ただし表紙は、もう少しうるさい人のもの。",
+   "items": [
+    "トップス: We11done BLACK GLOSS-COATED PAINTED JACKET / BLK ¥110000",
+    "ボトムス: Natasha zinko ROLLED WAIST TROUSERS / D.GRY ¥93940",
+    "シューズ: CONVERSE ROYAL STAR AS ¥74800",
+    "バッグ: LOEWE LOEWE PATCH CAMERA BAG MINI / BLK ¥198000",
+    "小物: MM6 Maison Margiela MINIMAL LOGO ID TAG CURB NECKLACE / BRUNITO ¥71500"
+   ]
+  },
+  {
+   "name": "高額でオシャレ",
+   "found": true,
+   "total": 696630,
+   "overall": 100,
+   "cls": "stylish",
+   "axes": {
+    "luxury": 81,
+    "appeal": 72,
+    "color": 82,
+    "silhouette": 60,
+    "style": 67,
+    "complete": 70,
+    "indiv": 29,
+    "fashion": 71,
+    "harmony": 70,
+    "daily": 51
+   },
+   "title": "ファッション界の主役",
+   "impression": "ギャラリーの白壁が似合う午後。",
+   "reasonComment": "靴とバッグの色がさりげなくつながっているところ。どこを切り取っても絵になるバランス。",
+   "items": [
+    "トップス: MONCLER × FRAGMENT LS T-SHIRT / BLK ¥80300",
+    "ボトムス: August Barron CONFETTI SKIRT ¥173580",
+    "シューズ: ERL SUEDE MID VAMP SNEAKERS / BRW ¥99550",
+    "バッグ: LEMAIRE BELTED HOBO BAG / EBONY BRW ¥264000",
+    "小物: Parts Of Four PLATE RING SINGLE (9MM, DA) / SIL ¥79200"
+   ]
+  },
+  {
+   "name": "高額で壊滅的（ダサい／不成立）",
+   "found": true,
+   "total": 564900,
+   "overall": 29,
+   "cls": "dasai",
+   "axes": {
+    "luxury": 78,
+    "appeal": 68,
+    "color": 60,
+    "silhouette": 60,
+    "style": 72,
+    "complete": 64,
+    "indiv": 25,
+    "fashion": 64,
+    "harmony": 64,
+    "daily": 49
+   },
+   "title": "金で解決できなかった男",
+   "impression": "一つひとつは主役級。全員が主役を譲らなかった結果、こうなりました。",
+   "reasonComment": "総額¥564,900。まとまりだけ、別売りだった模様。",
+   "items": [
+    "トップス: BED J.W. FORD RIBBON / STRIPE ¥77000",
+    "ボトムス: Jean Paul Gaultier MESH LONG SKIRT PRINTED \"SMOKING WOMEN\" / BLK GRY WHT ¥70400",
+    "シューズ: PDF STRADA LOW PELLE / GRN ¥73700",
+    "バッグ: Maison Margiela 5AC CLASSIQUE BABY ¥260700",
+    "小物: Tom Wood DEAN BRACELET / SIL ¥83100"
+   ]
+  },
+  {
+   "name": "同一ブランドだが相性が悪い（WEGO統一）",
+   "found": true,
+   "total": 12177,
+   "overall": 8,
+   "cls": "dasai",
+   "axes": {
+    "luxury": 14,
+    "appeal": 67,
+    "color": 16,
+    "silhouette": 60,
+    "style": 81,
+    "complete": 60,
+    "indiv": 32,
+    "fashion": 52,
+    "harmony": 52,
+    "daily": 53
+   },
+   "title": "ひとりブランド特集",
+   "impression": "上半身と下半身が別々の予定で外出している。",
+   "reasonComment": "柄と柄が正面からぶつかっている。誰か一人くらい、まとめ役が欲しかった。",
+   "items": [
+    "トップス: WEGO ミニチェックシャツ(LS) ¥3299",
+    "ボトムス: WEGO ピグメントグラフィックショーツ ¥960",
+    "シューズ: WEGO メッシュコンビ厚底スニーカー ¥1979",
+    "バッグ: WEGO フラワー総柄ナップサック ¥1979",
+    "小物: WEGO NEWERA BASIC BEANIE MLB ¥3960"
+   ]
+  },
+  {
+   "name": "異なる系統だが相性が良い",
+   "found": true,
+   "total": 134315,
+   "overall": 67,
+   "cls": "stylish",
+   "axes": {
+    "luxury": 44,
+    "appeal": 74,
+    "color": 82,
+    "silhouette": 60,
+    "style": 67,
+    "complete": 76,
+    "indiv": 49,
+    "fashion": 72,
+    "harmony": 72,
+    "daily": 65
+   },
+   "title": "表紙候補",
+   "impression": "レコードショップの開店待ち。",
+   "reasonComment": "決め手はトップス×ボトムス。赤の効いた色使いが全体を締めている。",
+   "items": [
+    "トップス: coca ヤク風ロゴニットトップス ¥1990",
+    "ボトムス: VIVAMUS PRINT SWEAT PANTS / BLK ¥12375",
+    "シューズ: ORiental TRaffic 【跳べるパンプス】スパンコールスクエアトゥバレエシューズ/R-3216 ¥3900",
+    "バッグ: READYMADE BACKPACK / WHT ¥115500",
+    "小物: WEGO ナローフレームアイウェア ¥550"
+   ]
+  },
+  {
+   "name": "全身無地で自然にまとまった",
+   "found": true,
+   "total": 36598,
+   "overall": 59,
+   "cls": "stylish",
+   "axes": {
+    "luxury": 29,
+    "appeal": 67,
+    "color": 82,
+    "silhouette": 60,
+    "style": 83,
+    "complete": 62,
+    "indiv": 24,
+    "fashion": 72,
+    "harmony": 73,
+    "daily": 62
+   },
+   "title": "表紙候補",
+   "impression": "レコードショップの開店待ち。",
+   "reasonComment": "決め手はトップス×ボトムス。赤の効いた色使いが全体を締めている。",
+   "items": [
+    "トップス: CONVERSE SYNTHETIC DENIM JACKET MENS ¥3911",
+    "ボトムス: dispark リジットペインターハーフデニム ¥3497",
+    "シューズ: CONVERSE DAYSTAR ¥3300",
+    "バッグ: BLACKMEANS SHOULDER CIRCLE COIN CASE / RED ¥24200",
+    "小物: coca ハット メンズ バケットハット ポケッタブル 折りたたみ 撥水加工 無地 サイズ調節可 薄手 ¥1690"
+   ]
+  },
+  {
+   "name": "全身派手だが成立している",
+   "found": true,
+   "total": 387200,
+   "overall": 94,
+   "cls": "wild_good",
+   "axes": {
+    "luxury": 65,
+    "appeal": 82,
+    "color": 82,
+    "silhouette": 60,
+    "style": 74,
+    "complete": 54,
+    "indiv": 62,
+    "fashion": 71,
+    "harmony": 69,
+    "daily": 48
+   },
+   "title": "個性を着こなす者",
+   "impression": "一般的ではないが、組み合わせとして成立している。",
+   "reasonComment": "主役はAMIRIのEMBROIDERED LOGO。一般的ではないのに、ちゃんと似合ってしまう不思議。",
+   "items": [
+    "トップス: GLOWNY G CLASSIC EMBROIDERED BUTTON-UP SHIRT / BRW ¥8800",
+    "ボトムス: Dear BORO DENIM PANTS WITH BORO EMBROIDERY (20TH EXCLUSIVE) ¥77000",
+    "シューズ: Maison Margiela TABI COUNTY KNEE BOOTS / BLK ¥192500",
+    "バッグ: AMIRI EMBROIDERED LOGO CAMERA CASE / BLK ¥107800",
+    "小物: PUNYUS フード総柄ソックス ¥1100"
+   ]
+  },
+  {
+   "name": "全身派手で成立していない",
+   "found": true,
+   "total": 249150,
+   "overall": 29,
+   "cls": "wild_fail",
+   "axes": {
+    "luxury": 60,
+    "appeal": 84,
+    "color": 40,
+    "silhouette": 60,
+    "style": 54,
+    "complete": 44,
+    "indiv": 64,
+    "fashion": 53,
+    "harmony": 49,
+    "daily": 31
+   },
+   "title": "主張の衝突現場",
+   "impression": "一つひとつは面白い。全員が同時に喋り出した結果、こうなりました。",
+   "reasonComment": "アイテム同士の顔見知り感はゼロ。柄と柄が正面からぶつかっているのが響いた。",
+   "items": [
+    "トップス: Needles RIB COLLAR TRACK JACKET - C/PE VELOUR / NVY ¥34100",
+    "ボトムス: We11done MIX MENS ALL-OVER PRINT CURVED PANTS / MIX ¥114400",
+    "シューズ: Casablanca MENS EMBROIDERED TERRY SLIDER / EMBROIDERED TERRY ¥29700",
+    "バッグ: GANNI HOBO MINI MULTI BOW SATIN PRINT / BLK ¥69850",
+    "小物: PUNYUS フード総柄ソックス ¥1100"
+   ]
+  },
+  {
+   "name": "色彩の相性が悪い",
+   "found": true,
+   "total": 25049,
+   "overall": 8,
+   "cls": "dasai",
+   "axes": {
+    "luxury": 23,
+    "appeal": 68,
+    "color": 12,
+    "silhouette": 60,
+    "style": 71,
+    "complete": 60,
+    "indiv": 48,
+    "fashion": 49,
+    "harmony": 48,
+    "daily": 49
+   },
+   "title": "方向性が行方不明",
+   "impression": "集合場所は同じ。ドレスコードは全員別。",
+   "reasonComment": "柄と柄が正面からぶつかっている。誰か一人くらい、まとめ役が欲しかった。",
+   "items": [
+    "トップス: WEGO ミニチェックシャツ(LS) ¥3299",
+    "ボトムス: WEGO ピグメントグラフィックショーツ ¥960",
+    "シューズ: CONVERSE ALL STAR WASHEDCANVAS OX ¥3850",
+    "バッグ: Marshall columbia POPPY PURSE_ / ORG/PNK ¥15840",
+    "小物: PUNYUS フード総柄ソックス ¥1100"
+   ]
+  },
+  {
+   "name": "シルエットの相性が悪い",
+   "found": true,
+   "total": 9410,
+   "overall": 5,
+   "cls": "dasai",
+   "axes": {
+    "luxury": 9,
+    "appeal": 55,
+    "color": 52,
+    "silhouette": 43,
+    "style": 63,
+    "complete": 49,
+    "indiv": 31,
+    "fashion": 52,
+    "harmony": 52,
+    "daily": 61
+   },
+   "title": "全身の意思疎通に失敗",
+   "impression": "上半身と下半身が別々の予定で外出している。",
+   "reasonComment": "予算の問題ではない。組み合わせの問題である。季節感が真逆を向いている。",
+   "items": [
+    "トップス: GU ドライポンチロングタンクトップ ¥990",
+    "ボトムス: CONVERSE CS TRACK PANTS MENS ¥3630",
+    "シューズ: GU マシュマロパンプス(ヒール4.5cm) ¥2990",
+    "バッグ: ダイソー クラフト紙袋 ¥110",
+    "小物: coca 起毛無地マフラー ¥1690"
+   ]
+  },
+  {
+   "name": "季節感が噛み合っていない",
+   "found": true,
+   "total": 35258,
+   "overall": 10,
+   "cls": "dasai",
+   "axes": {
+    "luxury": 27,
+    "appeal": 66,
+    "color": 56,
+    "silhouette": 44,
+    "style": 75,
+    "complete": 60,
+    "indiv": 30,
+    "fashion": 58,
+    "harmony": 59,
+    "daily": 55
+   },
+   "title": "方向性が行方不明",
+   "impression": "集合場所は同じ。ドレスコードは全員別。",
+   "reasonComment": "季節感が真逆を向いている。誰か一人くらい、まとめ役が欲しかった。",
+   "items": [
+    "トップス: BREATH CAMO DOWN JACKET / S.CAMO ¥27500",
+    "ボトムス: coca ワッシャーナイロンショートパンツ  メンズ ¥990",
+    "シューズ: WEGO スタッズベルトサンダル ¥1979",
+    "バッグ: WC ボタンデザインボストンバッグ ¥3299",
+    "小物: coca エンブレム刺繍ウォッシュキャップ ¥1490"
+   ]
+  },
+  {
+   "name": "シンプルなアイテムが主役を引き立てている",
+   "found": true,
+   "total": 187019,
+   "overall": 74,
+   "cls": "stylish",
+   "axes": {
+    "luxury": 54,
+    "appeal": 73,
+    "color": 72,
+    "silhouette": 60,
+    "style": 69,
+    "complete": 76,
+    "indiv": 41,
+    "fashion": 69,
+    "harmony": 69,
+    "daily": 64
+   },
+   "title": "街角スナップ常連",
+   "impression": "古着屋の前でスナップを頼まれる休日。",
+   "reasonComment": "Needlesの存在感と、それを邪魔しない周り。主役と脇役の給料差がはっきりしている。",
+   "items": [
+    "トップス: Needles RIB COLLAR TRACK JACKET - C/PE VELOUR / NVY ¥34100",
+    "ボトムス: SRVC NOX VELVET MINI SKIRT / DARK GRY ¥73700",
+    "シューズ: CONVERSE ROYAL STAR AS ¥74800",
+    "バッグ: coca ファーバッグ ¥2990",
+    "小物: WEGO メタルナローアイウェア ¥1429"
+   ]
+  }
+ ],
+ "singleVar": {
+  "base": {
+   "v2": true,
+   "price": 13,
+   "balance": 67,
+   "overall": 37,
+   "base": 25,
+   "bonuses": [
+    [
+     "カジュアル統一ボーナス",
+     10,
+     "style",
+     "c"
+    ],
+    [
+     "CONVERSE × 2 同ブランドボーナス",
+     2,
+     "brand",
+     "CONVERSE"
+    ]
+   ],
+   "reason": "内部評価：ラグジュアリー性 13／アイテム単体の魅力 66／色彩・柄の相性 66／シルエット 60／スタイルの統一感 78／全体の完成度 62。分類：無難。組み合わせによる目立った減点はありません。",
+   "relief": false,
+   "reliefPts": 0,
+   "axes": {
+    "luxury": 13,
+    "appeal": 66,
+    "color": 66,
+    "silhouette": 60,
+    "style": 78,
+    "complete": 62,
+    "indiv": 15,
+    "fashion": 66,
+    "harmony": 67,
+    "daily": 81
+   },
+   "cls": "plain",
+   "clsLabel": "無難",
+   "tier": "cheap",
+   "title": "日常生活の優等生",
+   "headline": "本日のミックスコーデ",
+   "impression": "予定を決めずに街を歩く日。誰の記憶にも残らない代わりに、誰にも嫌われない。",
+   "reasonComment": "WEGOのNEWERA ECOTOTE MESHで臨めば、彼女の親への挨拶なら正解のコーデ。表紙より、休日のショッピングモールが似合う。",
+   "reasons": {
+    "bestAxis": "style",
+    "worstAxis": "luxury",
+    "worstAxisNonLux": "silhouette",
+    "plus": [],
+    "minus": [],
+    "bestPair": null,
+    "worstPair": null,
+    "hero": {
+     "slot": "バッグ",
+     "brand": "WEGO",
+     "name": "NEWERA　ECOTOTE　MESH"
+    }
+   },
+   "total": 11920
+  },
+  "priceSwap": {
+   "item": "JULIUS × PARADOXE PARIS 075BGU3 ¥972400",
+   "s": {
+    "v2": true,
+    "price": 65,
+    "balance": 66,
+    "overall": 84,
+    "base": 74,
+    "bonuses": [
+     [
+      "カジュアル統一ボーナス",
+      7,
+      "style",
+      "c"
+     ],
+     [
+      "CONVERSE × 2 同ブランドボーナス",
+      2,
+      "brand",
+      "CONVERSE"
+     ],
+     [
+      "レアリティボーナス",
+      1,
+      "rarity",
+      "rarity"
+     ]
+    ],
+    "reason": "内部評価：ラグジュアリー性 65／アイテム単体の魅力 66／色彩・柄の相性 66／シルエット 60／スタイルの統一感 74／全体の完成度 62。分類：無難。組み合わせによる目立った減点はありません。",
+    "relief": false,
+    "reliefPts": 0,
+    "axes": {
+     "luxury": 65,
+     "appeal": 66,
+     "color": 66,
+     "silhouette": 60,
+     "style": 74,
+     "complete": 62,
+     "indiv": 14,
+     "fashion": 65,
+     "harmony": 66,
+     "daily": 56
+    },
+    "cls": "plain",
+    "clsLabel": "無難",
+    "tier": "lux",
+    "title": "静かなる財力",
+    "headline": "静かな高級感",
+    "impression": "上品で完成度も高いが、ランウェイを沸かせるには少し大人しい。",
+    "reasonComment": "cocaのワイドテーパードイージーパンツを軸にした大人の休日。騒がない、媚びない、でも財布だけは正直。",
+    "reasons": {
+     "bestAxis": "style",
+     "worstAxis": "silhouette",
+     "worstAxisNonLux": "silhouette",
+     "plus": [],
+     "minus": [],
+     "bestPair": null,
+     "worstPair": null,
+     "hero": {
+      "slot": "ボトムス",
+      "brand": "coca",
+      "name": "ワイドテーパードイージーパンツ"
+     }
+    },
+    "total": 981350
+   }
+  },
+  "topSwap": {
+   "item": "coca シアーフリルブラウス ¥1990",
+   "s": {
+    "v2": true,
+    "price": 15,
+    "balance": 70,
+    "overall": 40,
+    "base": 31,
+    "bonuses": [
+     [
+      "カジュアル統一ボーナス",
+      7,
+      "style",
+      "c"
+     ],
+     [
+      "coca × 2 同ブランドボーナス",
+      2,
+      "brand",
+      "coca"
+     ]
+    ],
+    "reason": "内部評価：ラグジュアリー性 15／アイテム単体の魅力 67／色彩・柄の相性 78／シルエット 60／スタイルの統一感 72／全体の完成度 66。分類：オシャレ。組み合わせによる目立った減点はありません。",
+    "relief": false,
+    "reliefPts": 0,
+    "axes": {
+     "luxury": 15,
+     "appeal": 67,
+     "color": 78,
+     "silhouette": 60,
+     "style": 72,
+     "complete": 66,
+     "indiv": 29,
+     "fashion": 69,
+     "harmony": 70,
+     "daily": 78
+    },
+    "cls": "stylish",
+    "clsLabel": "オシャレ",
+    "tier": "cheap",
+    "title": "予算を超えた才能",
+    "headline": "コスパ最強コーデ",
+    "impression": "財力ではなくセンスで勝負するタイプ。",
+    "reasonComment": "プチプラの意地を見た。買い物上手として表彰したい。",
+    "reasons": {
+     "bestAxis": "color",
+     "worstAxis": "luxury",
+     "worstAxisNonLux": "silhouette",
+     "plus": [],
+     "minus": [],
+     "bestPair": null,
+     "worstPair": null,
+     "hero": {
+      "slot": "トップス",
+      "brand": "coca",
+      "name": "シアーフリルブラウス"
+     }
+    },
+    "total": 12950
+   }
+  },
+  "colorSwap": {
+   "plain": "GU グラフィックT ジョジョの奇妙な冒険 5",
+   "vivid": "GU グラフィックT ジョジョの奇妙な冒険 7",
+   "sA": {
+    "v2": true,
+    "price": 42,
+    "balance": 65,
+    "overall": 50,
+    "base": 43,
+    "bonuses": [
+     [
+      "カジュアル統一ボーナス",
+      4,
+      "style",
+      "c"
+     ],
+     [
+      "GU × 2 同ブランドボーナス",
+      2,
+      "brand",
+      "GU"
+     ],
+     [
+      "レアリティボーナス",
+      1,
+      "rarity",
+      "rarity"
+     ]
+    ],
+    "reason": "内部評価：ラグジュアリー性 42／アイテム単体の魅力 67／色彩・柄の相性 66／シルエット 60／スタイルの統一感 71／全体の完成度 62。分類：無難。組み合わせによる目立った減点はありません。",
+    "relief": false,
+    "reliefPts": 0,
+    "axes": {
+     "luxury": 42,
+     "appeal": 67,
+     "color": 66,
+     "silhouette": 60,
+     "style": 71,
+     "complete": 62,
+     "indiv": 25,
+     "fashion": 65,
+     "harmony": 65,
+     "daily": 68
+    },
+    "cls": "plain",
+    "clsLabel": "無難",
+    "tier": "mid",
+    "title": "日常生活の優等生",
+    "headline": "本日のミックスコーデ",
+    "impression": "コンビニの前で友達と待ち合わせる休日。",
+    "reasonComment": "総額¥106,280、大きな破綻のない穏やかな一式。決め手の事件は起きなかった。",
+    "reasons": {
+     "bestAxis": "style",
+     "worstAxis": "luxury",
+     "worstAxisNonLux": "silhouette",
+     "plus": [],
+     "minus": [],
+     "bestPair": null,
+     "worstPair": null,
+     "hero": {
+      "slot": "トップス",
+      "brand": "GU",
+      "name": "グラフィックT ジョジョの奇妙な冒険 5"
+     }
+    },
+    "total": 106280
+   },
+   "sB": {
+    "v2": true,
+    "price": 42,
+    "balance": 67,
+    "overall": 53,
+    "base": 46,
+    "bonuses": [
+     [
+      "カジュアル統一ボーナス",
+      4,
+      "style",
+      "c"
+     ],
+     [
+      "GU × 2 同ブランドボーナス",
+      2,
+      "brand",
+      "GU"
+     ],
+     [
+      "レアリティボーナス",
+      1,
+      "rarity",
+      "rarity"
+     ]
+    ],
+    "reason": "内部評価：ラグジュアリー性 42／アイテム単体の魅力 67／色彩・柄の相性 72／シルエット 60／スタイルの統一感 71／全体の完成度 62。分類：オシャレ。組み合わせによる目立った減点はありません。",
+    "relief": false,
+    "reliefPts": 0,
+    "axes": {
+     "luxury": 42,
+     "appeal": 67,
+     "color": 72,
+     "silhouette": 60,
+     "style": 71,
+     "complete": 62,
+     "indiv": 25,
+     "fashion": 67,
+     "harmony": 67,
+     "daily": 65
+    },
+    "cls": "stylish",
+    "clsLabel": "オシャレ",
+    "tier": "mid",
+    "title": "街角スナップ常連",
+    "headline": "完成度の高い一式",
+    "impression": "古着屋の前でスナップを頼まれる休日。",
+    "reasonComment": "総額¥106,280、無駄な力みがない。スナップを頼まれる休日の顔。",
+    "reasons": {
+     "bestAxis": "color",
+     "worstAxis": "luxury",
+     "worstAxisNonLux": "silhouette",
+     "plus": [],
+     "minus": [],
+     "bestPair": null,
+     "worstPair": null,
+     "hero": {
+      "slot": "トップス",
+      "brand": "GU",
+      "name": "グラフィックT ジョジョの奇妙な冒険 7"
+     }
+    },
+    "total": 106280
+   }
+  }
+ },
+ "guardViolations": [],
+ "reliefBest": {
+  "overall": 94,
+  "cls": "wild_good",
+  "total": 21337,
+  "reliefPts": 7,
+  "items": [
+   "トップス: WEGO IndianグラフィックネップT(SS) ¥2199",
+   "ボトムス: BREATH SCRIPT LOGO PIPING VELOUR TRACK PANTS / BUR ¥8250",
+   "シューズ: WEGO コードMIXスニーカー ¥3959",
+   "バッグ: WEGO アソートウエストバッグ ¥2969",
+   "小物: WEGO adidas CAT WATCH ¥3960"
+  ]
+ }
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>一般公開・収益化ガイド</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">一般公開・収益化ガイド</h1>
+</header>
+<h1 id="closet-roll-一般公開収益化ガイド">CLOSET ROLL
+一般公開・収益化ガイド</h1>
+<p>確認日
+2026年11月24日。配信料金は米ドル。ここで扱うのは無料ブラウザゲームの運営で、各社との契約、アカウント作成、審査申請、ドメイン購入は運営者が行う。</p>
+<h2 id="cloudflare-pages-で配信する場合の費用">1. Cloudflare Pages
+で配信する場合の費用</h2>
+<p>ゲーム本体とカタログを静的ファイルとして配信し、抽選、採点、記録、共有画像生成は端末内で処理する。ゲームに新たな課金対象が発生する境目は、プレイ人数よりも、画像変換サービスやサーバー処理をリクエスト経路に加えたときにある。Pages
+の Functions を呼ばない静的アクセスは Free と Paid
+のどちらでも無料・回数無制限。表は30日間、各利用者が1日1訪問・5回引き、無料の
+pages.dev
+を使用する前提。数値は料金表による試算で、同時接続の実測や稼働保証は含まない。<a
+href="https://developers.cloudflare.com/pages/functions/pricing/">Pages
+料金</a>・<a
+href="https://developers.cloudflare.com/pages/platform/limits/">Pages
+上限</a></p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">1日あたりの利用者</th>
+<th style="text-align: right;">月の延べ訪問</th>
+<th style="text-align: right;">月のガチャ回数</th>
+<th style="text-align: right;">月の静的配信料金</th>
+<th style="text-align: right;">転送量の参考値（1訪問1 MBと仮定）</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1,000人</td>
+<td style="text-align: right;">3万</td>
+<td style="text-align: right;">15万</td>
+<td style="text-align: right;">$0</td>
+<td style="text-align: right;">30 GB</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1万人</td>
+<td style="text-align: right;">30万</td>
+<td style="text-align: right;">150万</td>
+<td style="text-align: right;">$0</td>
+<td style="text-align: right;">300 GB</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10万人</td>
+<td style="text-align: right;">300万</td>
+<td style="text-align: right;">1,500万</td>
+<td style="text-align: right;">$0</td>
+<td style="text-align: right;">3 TB</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">100万人</td>
+<td style="text-align: right;">3,000万</td>
+<td style="text-align: right;">1億5,000万</td>
+<td style="text-align: right;">$0</td>
+<td style="text-align: right;">30 TB</td>
+</tr>
+</tbody>
+</table>
+<p>転送量の列は10進単位の計画例。実測との比較用に、旧版の配信物には WebP
+500枚、計2,412,876バイト（中央値3,714バイト）、JS
+2ファイル計177,483バイトがあった。全素材の容量を訪問ごとに全量転送する想定にはしていない。公開ビルドではスマートフォンのブラウザ開発ツールでキャッシュを消し、初回表示から5回の抽選までの転送量を測る。再訪は別に測る。実測が0.35
+MBなら右列の各値を0.35倍する。外部広告・計測スクリプト、将来の写真の大きさでも変わる。</p>
+<ul>
+<li>無料枠では月500ビルド、同時ビルド1、ビルド時間20分まで。配信するファイルはサイトあたり20,000点、各25
+MiBまで。ダッシュボードのドラッグ＆ドロップは一度に1,000ファイルまでなので、写真が増えたら
+Git 連携か Wrangler を選ぶ。<a
+href="https://developers.cloudflare.com/pages/platform/limits/">Pages
+上限</a>・<a
+href="https://developers.cloudflare.com/pages/get-started/direct-upload/">Direct
+Upload</a></li>
+<li>将来リクエストを Functions に通すと、無料枠は同一アカウントの
+Workers
+と合算で1日10万リクエスト。全ガチャが関数を1回呼ぶ構成なら、1日2万人×5回でその枠に達する。ランキングを追加するときはゲームとルートを分ける。最初は有料
+Workers、データベース、有料画像変換や外部AIを契約しない。独自ドメイン代、ライセンス代、人件費、メールや監視などの任意サービスは表の外。無料枠を超える機能は、キャッシュ・間引き・停止で対応できる設計にしてから契約する。<a
+href="https://developers.cloudflare.com/pages/functions/pricing/">Pages
+料金</a></li>
+</ul>
+<h2 id="公開前の素材チェック">2. 公開前の素材チェック</h2>
+<p>権利者が写真を掲載している事実と、別サイトで商用配信したり、利用者がSNSに再投稿したりできる権利は別々に確認する。既存カタログの
+source
+は商品情報の参照先で、画像の撮影者、画像の原本URL、許諾書を特定できる証拠にはならない。下表の件数は改修前の500商品について商品ページのドメインで集計した値。<a
+href="https://www.bunka.go.jp/seisaku/chosakuken/taisetsu/point/">文化庁・インターネット上の著作物</a></p>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 40%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>旧版の商品情報取得元</th>
+<th style="text-align: right;">件数</th>
+<th>公開時の扱い</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>NUBIAN</td>
+<td style="text-align: right;">475</td>
+<td>利用規約第5条5号はサービスで得た情報の商業的利用を禁じている。写真を外した後も、商品名・価格を含む収録データの出所を要確認。商用許可を個別取得するか、許諾範囲が分かるブランド提供資料・独立した情報源に基づいて再収録する。確認まで公開・収益化対象から保留。<a
+href="https://nubiantokyo.com/policies/terms-of-service">規約</a></td>
+</tr>
+<tr class="even">
+<td>ドン・キホーテ</td>
+<td style="text-align: right;">9</td>
+<td>写真の商用配信・SNS書き出しを認める根拠は未確認。商品情報の取得経路、メーカーと撮影者を確認。</td>
+</tr>
+<tr class="odd">
+<td>GU</td>
+<td style="text-align: right;">7</td>
+<td>規約で画像・文言・デザイン等の権利の帰属が定められている。写真配信・再配布の許諾を個別確認。<a
+href="https://faq.gu-global.com/articles/Knowledge/100001768/">規約</a></td>
+</tr>
+<tr class="even">
+<td>UNIQLO</td>
+<td style="text-align: right;">3</td>
+<td>個人ブログ・個人サイトへの掲載画像使用を控えるよう明記。リンク先もトップページ指定。公開カードからの商品への直接リンクは別途許可された方法がある場合に限る。<a
+href="https://faq.uniqlo.com/articles/Knowledge/100001721/">公式FAQ</a></td>
+</tr>
+<tr class="odd">
+<td>ダイソーネットストア</td>
+<td style="text-align: right;">3</td>
+<td>EC利用規約を確認し、公開用ゲームやSNSへの画像の再利用許諾が取れた商品を選ぶ。<a
+href="https://jp.daisonet.com/policies/terms-of-service">規約</a></td>
+</tr>
+<tr class="even">
+<td>しまむらグループ</td>
+<td style="text-align: right;">2</td>
+<td>ゲーム・共有画像への素材転用許諾は未確認。問い合わせに用途、公開先、対象素材を添える。<a
+href="https://www.shimamura.gr.jp/faq/contact/">窓口</a></td>
+</tr>
+<tr class="odd">
+<td>Dover Street Market New York</td>
+<td style="text-align: right;">1</td>
+<td>米国サイトのコンテンツ利用条項が適用される。外部ゲーム・商用転用・SNS利用の許諾は未確認。<a
+href="https://shop-us.doverstreetmarket.com/pages/faqs_terms-and-conditions_our-terms-and-conditions-of-sale">規約</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>実務上の判定</strong>　商品ごとに情報と写真の取得元を分け、対象URL、権利者・撮影者、根拠資料、許否と内容（商用掲載、加工、WebP変換、SNS再配布、利用者による保存）、期限、帰属表示、確認日を保管する。新規ブランドにも同じ手順を適用する。販売員向け資料やアフィリエイト素材には用途限定がある。担当者が許可する権限を持つ範囲も確認する。</p>
+<p><strong>公開物の検査</strong>　第三者画像の権利が未確認なら、自作のカテゴリ図や文字組みでゲーム画面と共有カードを生成し、商品写真と誤認されない表示を添える。旧写真や旧版HTMLがビルドフォルダ内にあれば、表画面から参照しなくてもURLで配信される。公開用出力から除外し、旧画像URLへの直接アクセスも確認する。ブランド名は出典に沿った商品識別のテキストに限り、ロゴ・公式バッジ・公認と取れる宣伝文を追加しない。写真の許可を得た際には商品ごとに順次解除できる。</p>
+<h2 id="登録から収益化まで">3. 登録から収益化まで</h2>
+<ol type="1">
+<li><strong>運営者が公開情報を確定する。</strong>
+公開名と受信可能な問い合わせ窓口、素材権利者向けの訂正・削除連絡先を用意する。利用規約には架空の無料ゲーム、参考価格の確認日と通貨、外部購入先との関係、娯楽としての採点を記載する。ブランド公認や販売元との提携があるかのような表現を避ける。外部サイトでの販売価格・在庫・返品条件は購入先で確認できる形にする。</li>
+<li><strong>公開するファイルだけを配信する。</strong>
+Cloudflareアカウントを作成し、Workers &amp; Pages の Pages
+プロジェクトを作る。継続更新する場合はGitの対象リポジトリと本番ブランチを指定し、静的配信ディレクトリを出力先に設定する。手動公開なら検査済みの出力ディレクトリだけをDirect
+Upload。将来Git連携へ切り替える場合は新しいプロジェクトが必要。公開前にスマホで初回ガチャ、音量・動き、画像保存、共有リンク、戻る操作、記録保持を試す。<a
+href="https://developers.cloudflare.com/pages/get-started/direct-upload/">公開手順</a></li>
+<li><strong>楽天アフィリエイト。</strong>
+楽天IDで利用手続きを行い、使うサイトを登録。ガイドラインと媒体条件を確認し、正規の管理画面から対象商品リンクを発行する。リンクと対象商品の一致を確認し、報酬を伴う購入リンクの見える場所に「広告」等を表示。通販ページのスクリーンショットをガチャカードに流用しない。画像付きリンクを提供どおり表示する権利と、画像入りカードを配布する権利を分ける。<a
+href="https://affiliate.rakuten.co.jp/guides/begin/">開始案内</a>・<a
+href="https://affiliate.rakuten.co.jp/guideline/rule/">楽天ガイドライン</a>・<a
+href="https://www.caa.go.jp/policies/policy/representation/fair_labeling/faq/stealth_marketing/">消費者庁Q&amp;A</a></li>
+<li><strong>Amazonアソシエイト。</strong>
+公開内容が整ってから本人がアカウント・掲載媒体・支払等の情報を登録し、正規に発行した特別リンクを掲載する。180日以内に3件以上の適格販売が審査開始の条件。サイトに規約指定の参加者表記を追加し、各購入導線も広告と分かるようにする。API等を使う場合、画像本体の保存、画像リンクの保持、価格の更新・時刻表示に個別制限がある。静的カタログや共有画像にAmazonの素材を取り込む方式は採用せず、初期はテキストリンクを使う。<a
+href="https://affiliate.amazon.co.jp/help/node/topic/G8TW5AE9XL2VX9VM/">審査</a>・<a
+href="https://affiliate.amazon.co.jp/help/operating/agreement">運営規約</a>・<a
+href="https://affiliate.amazon.co.jp/help/operating/policies/">ライセンス</a></li>
+<li><strong>AdSense。</strong>
+運営者が資格要件を確認し、オリジナルコンテンツ・問い合わせ・ポリシーを公開したサイトを登録する。指定方法でサイトを確認し、審査結果を待つ。採用する場合は管理画面が指定する本人・支払先の確認やads.txt設定を済ませる。通常の結果広告は「広告」と識別できる枠に置き、ガチャボタンやスキップボタンから距離を取る。全画面・任意報酬広告は対応するH5
+Games
+Ads等へのアクセス承認後、正式APIの自然な区切りで利用する。広告は失敗・拒否・在庫なしでも通常ガチャの操作に影響させない。<a
+href="https://support.google.com/adsense/answer/9724?hl=ja">資格</a>・<a
+href="https://support.google.com/adsense/answer/1346295?hl=ja">配置ポリシー</a>・<a
+href="https://developers.google.com/ad-placement/docs/signup?hl=ja">ゲーム広告の申請</a></li>
+</ol>
+<p>商品更新は管理者側の定期処理に集約する。提供元の契約が認める取得方法・間隔で取得し、正規化した差分と失効・リンク切れを確認して静的ファイルを発行する。許可期限切れや廃盤はボタン停止、許諾不明は画像差し替え。秘密鍵は管理者側のみ。ゲーム内参考価格と販売先の現在価格は表示もデータも分け、APIの保持期限に従えない価格や画像は取り込まない。</p>
+<h2 id="集計とプライバシー">4. 集計とプライバシー</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>知りたい値</th>
+<th>測定方法</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ページ閲覧・訪問傾向</td>
+<td>Cloudflare Web Analytics
+が無料で訪問・ページビューを集計。訪問数を厳密なユニーク人数やリピーター率として扱わない。<a
+href="https://developers.cloudflare.com/web-analytics/about/">公式説明</a></td>
+</tr>
+<tr class="even">
+<td>モード、ガチャ回数、遊ばれ方</td>
+<td>必要なら GA4
+等に抽選完了・モード・最高レア・特殊条件を送る。1人あたりの平均は同期間・同意範囲の抽選完了数÷計測ユーザー数で算出。再訪率は識別方法、同意拒否、端末変更による欠測を注記。<a
+href="https://developers.google.com/analytics/devguides/collection/ga4/events?hl=ja">イベント設定</a></td>
+</tr>
+<tr class="odd">
+<td>共有、購入導線</td>
+<td>共有画面起動、OS共有完了、画像保存、挑戦リンクコピーを区別。SNS公開を端末で確認できない場合は「投稿数」と呼ばない。広告リンクのクリック率は同じ商品の購入可能リンクが表示された回数を分母にする。アフィリエイト管理画面の承認件数・確定報酬を照合する。</td>
+</tr>
+<tr class="even">
+<td>人気商品</td>
+<td>取得数と詳細閲覧・購入クリックを分ける。高確率で出る商品は自然に取得数が増えるので、露出あたりの反応で比較する。広告収入はAdSense、アフィリエイト収入は各社の管理画面で確定値を確認。</td>
+</tr>
+</tbody>
+</table>
+<p>導入前に実際に流れるデータを棚卸しする。ゲーム履歴、端末内保存の種類・消去方法、ホスティング、問い合わせ、計測・広告ごとの送信先・送信情報・用途、保存期間、同意・拒否・変更方法をポリシーに反映。地域・構成に応じて外部送信の公表等を確認する。収集イベントは列挙した項目に絞り、メール・自由入力・URL全文・お気に入り一覧を送らない。Google広告をEEA・英国・スイスで配信する場合は認定CMP等の適用条件を確認し、同意管理を実装してから配信する。<a
+href="https://support.google.com/adsense/answer/7670013?hl=ja">Google同意管理</a></p>
+<h2 id="公開判定">5. 公開判定</h2>
+<p>実際に公開する版の全商品について、使用可能な情報源を確認し、表示・購入リンク・共有PNGに適した素材だけを配信する。保留分を外すと特に高額枠の品揃えと得点分布が変わる。公開版の最終カタログでもモード別シミュレーションを再実行し、結果頻度表示を同じバージョンに更新する。権利者の許可、公開URL、実機試験、本人が受信できる窓口、広告等の審査は個別に記録する。</p>
+<h2 id="今回の版と確認結果">今回の版と確認結果</h2>
+<p>既存500点の5枚開封、商品写真、特殊パック、採点の用途判定、X共有を引き継いだ。更新後は1,318点・308ブランド。写真は計11.75
+MB、通常画面は抽選に必要な商品データ約268
+KiBのみを読み、画像は表示カードごとに読み込む。元データは商品IDと許諾・出典・候補リンクを別々に管理する。更新時は既存の並びとIDを維持し、廃盤品は位置を再利用しない。自動更新を接続する際は、契約上認められた管理側の処理で差分を検査してから再集計する。</p>
+<p>商品の参考額と用途、上下の形や素材・温度感の組み合わせを別々に評価。基本点は価格23％、着こなし77％。参考価格は対数化し、同ブランドや希少性による価格の二重加点を抑えた。トップスとボトムスは服の土台の64％を占める。色は商品名から確認できる範囲で評価する。元の画像の例は154,520円、価格63、バランス0、総合18点。画像から実際に生成した5例も見比べた。防寒肌着上下とポリ袋は2点、ジップフーディーと迷彩ハーフパンツにコンバースは76点、ウールコートとミニスカート、黒いブーツ・バッグは100点。価格が小物に極端に偏った結果でも総合25点の例がある。審査員による評価実験は未実施。</p>
+<p>端末内にモード・設定・履歴40件・お気に入り30件・獲得済みIDなどを保存する。JST日替わりは同日同版の全員に共通。履歴からの閲覧や対決リンクを開くだけで件数は加算されない。Chromeのスマートフォン相当幅で過去のコーデ復元、横スクロールが出ないこと、PNG生成を確認した。実機Safariの写真保存・振動・OS共有・音声は公開前に確認する。</p>
+<p>商品別写真の商用利用許諾は全1,318点で未確認。共有PNGは自作の部位ピクトと商品名を用いる。取得元を特定できた新規写真818点と、旧商品の現在の掲載画像を照合した記録を区別する。旧写真4点は画像掲載先も未確認。公開に使える商品情報や画像の許諾を記録し、販売先リンクの掲載条件・販売状況を確認できたものから有効化する。商品画像の権利台帳と公開可否チェックを同梱している。広告・解析は無効。アフィリエイト契約、広告や実購入、類似商品の提案、公式ランキング、定期価格更新は未接続。WOMENは極端な得点が少なく、MENは靴のブランドが偏りやすい。公開版の追加候補では女性用の用途特化アイテムと男性用シューズのブランドを優先する。</p>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5f76a3e0b4f2ef2',t:'MTc5NTUxMjgzNg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5f76a3e0b4f2ef2',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
